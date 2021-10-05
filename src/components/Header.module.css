@@ -1,0 +1,21 @@
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.head img {
+
+max-height: 25px;
+}
+
+.links {
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.links li {
+  margin-left: 40px;
+}
