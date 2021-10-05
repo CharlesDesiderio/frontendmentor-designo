@@ -1,8 +1,10 @@
 // 393 high
 
+import styles from './Footer.module.css'
+
 const Footer = () => {
   return (
-    <div>foot</div>
+    <div className={styles.footer}>??foot</div>
   )
 }
 

@@ -1,0 +1,8 @@
+.callToAction {
+  background-color: var(--peach);
+  width: 1110px;
+  height: 292px;
+  border-radius: 15px;
+  position: relative;
+  bottom: -72px;
+}
