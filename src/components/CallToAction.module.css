@@ -1,12 +1,12 @@
 .callToAction {
   background-color: var(--peach);
-  width: 960px;
+  width: 930px;
   margin: auto;
   height: 292px;
   border-radius: 15px;
   position: relative;
   bottom: -72px;
-  padding: 0 75px;
+  padding: 0 90px;
   color: var(--white);
   display: flex;
   flex-direction: row;
@@ -17,14 +17,21 @@
 
 .blurb {
   width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .blurb h2 {
-  width: 75%;
+  width: 60%;
+  margin-top: auto;
+  margin-top: 0;
+  margin-bottom: 8px;
+  letter-spacing: 0;
+  line-height: 40px;
 }
 .getInTouch {
   width: 150px;
-  height: 50px;
+  height: 55px;
   position: relative;
   margin: auto 0 auto auto;
   right: 0;
