@@ -15,11 +15,4 @@ const App = () => {
   )
 }
 
-/*
-
-layout:
-ALL PAGES: HEADER, CTA, FOOTER
-
-*/
-
 export default App
