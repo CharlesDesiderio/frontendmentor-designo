@@ -5,3 +5,42 @@
   background-color: var(--black);
   color: var(--white);
 }
+
+.footerContainer {
+  width: 1110px;
+  margin: auto;
+}
+
+.contact {
+  color: #8E8E8F;
+  width: 1110px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid var(--dark-gray);
+}
+
+.contactPhysical {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.contactPhysical p {
+  margin: 0;
+}
+
+.contactSocial {
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.contactSocial img {
+  margin-left: 15px;
+}

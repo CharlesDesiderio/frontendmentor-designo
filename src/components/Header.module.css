@@ -4,9 +4,12 @@
   justify-content: space-between;
 }
 
-.head img {
+.head ul {
+  margin: 0;
+}
 
-max-height: 25px;
+.head img {
+  max-height: 25px;
 }
 
 .links {
@@ -18,4 +21,5 @@ max-height: 25px;
 
 .links li {
   margin-left: 40px;
+  letter-spacing: 2px;
 }

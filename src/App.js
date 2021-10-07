@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
     <div className={styles.app}>
-      <Header />
+      <Header color='light' />
       <CallToAction />
     </div>
       <Footer />
