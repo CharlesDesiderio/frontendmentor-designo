@@ -1,0 +1,44 @@
+.home {
+  position: relative;
+  width: 920px;
+  height: 495px;
+  padding: 145px 95px 0 95px;
+  margin-top: 65px;
+  border-radius: 15px;
+  background-color: var(--peach);
+
+  background-repeat: no-repeat;
+  background-position-x: right;
+  overflow: hidden;
+}
+
+.homeInfo {
+  width: 55%;
+  color: var(--white)
+}
+
+.homeInfo p {
+  width: 85%;
+}
+
+.homeInfo button {
+  width: 150px;
+  height: 55px;
+  position: relative;
+  margin: auto 0 auto auto;
+  right: 0;
+  border: none;
+  background-color: var(--white);
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.homeImage {
+  position: absolute;
+  top: 0;
+  right: -75px;
+}

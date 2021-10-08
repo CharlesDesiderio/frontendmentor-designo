@@ -9,6 +9,10 @@
   --light-gray: #F1F3F5;
 }
 
+::before, ::after, input, textarea, select, button {
+  font: inherit;
+}
+
 body {
   font-family: 'Jost', sans-serif;
   font-size: 16px;
