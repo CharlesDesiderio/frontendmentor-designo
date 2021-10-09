@@ -1,3 +1,16 @@
+.leafTop {
+  position: absolute;
+  left: 0;
+  top: 475px;
+}
+
+.leafBottom {
+  position: absolute;
+  right: 0;
+  top: 1880px;
+  transform: rotate(180deg);
+}
+
 .home {
   position: relative;
   width: 920px;
@@ -6,7 +19,6 @@
   margin-top: 65px;
   border-radius: 15px;
   background-color: var(--peach);
-
   background-repeat: no-repeat;
   background-position-x: right;
   overflow: hidden;
@@ -41,4 +53,118 @@
   position: absolute;
   top: 0;
   right: -75px;
+}
+
+.homeServices {
+  color: var(--white);
+  margin-top: 170px;
+  display: grid;
+  width: 1110px;
+  height: 640px;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.homeServices div {
+  width: 540px;
+  border-radius: 15px;
+}
+
+.homeServices h1 {
+  position: relative;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+}
+
+.homeServices p {
+  position: relative;
+  margin-top: 0;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.homeServices img {
+  margin-left: 16px;
+}
+
+.homeServicesWeb {
+  display: flex;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.homeServicesWeb, .homeServicesApp, .homeServicesGraphic {
+  position: relative;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.homeServicesWeb::before, .homeServicesApp::before, .homeServicesGraphic::before {
+  border-radius: 15px;
+  content: " ";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.50);
+}
+
+.homeQualities {
+  position: relative;
+  margin-top: 150px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.homeQualitiesContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.homeQualities h3 {
+  text-transform: uppercase;
+}
+
+.homeQualities div {
+  width: 350px;
+  height: 410px;
+  display: flex;
+  text-align: center;
+}
+
+.homeQualities img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.quality {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.qualityBackground {
+  position: absolute;
+  z-index: -2;
+}
+
+.qualityBackgroundPassionate {
+  transform: rotate(-90deg);
+}
+
+.qualityBackgroundResourceful {
+  transform: rotate(180deg);
 }

@@ -1,5 +1,3 @@
-// 393 high
-
 import styles from './Footer.module.css'
 import Header from './Header'
 
