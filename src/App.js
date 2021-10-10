@@ -3,6 +3,7 @@ import styles from './App.module.css'
 import Footer from './components/Footer'
 import CallToAction from './components/CallToAction'
 import Home from './components/Home'
+import WebDesign from './components/WebDesign'
 
 const App = () => {
   return (
@@ -11,6 +12,8 @@ const App = () => {
       <Header />
 
         <Home />
+
+        <WebDesign />
 
       <CallToAction />
     </div>
