@@ -21,6 +21,7 @@ import qualityResourceful from '../assets/home/desktop/illustration-resourceful.
 import qualityFriendly from '../assets/home/desktop/illustration-friendly.svg'
 
 import qualityBackground from '../assets/home/desktop/bg-pattern-hero-home.svg'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -38,10 +39,12 @@ const Home = () => {
 
     <div className={styles.homeServices}>
       <div style={{backgroundImage: `url(${webBackground})`}} className={styles.homeServicesWeb}>
+      <Link className={styles.link} to="/webdesign">
         <div>
           <h1>Web Design</h1>
           <p>View Projects<img alt=">" src={rightArrow} /></p>  
         </div>
+      </Link>
       </div>
       <div style={{backgroundImage: `url(${appBackground})`}} className={styles.homeServicesApp}>
         <div>
