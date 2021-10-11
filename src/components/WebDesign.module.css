@@ -1,0 +1,31 @@
+.webDesignTitle {
+  text-align: center;
+  background-color: var(--peach);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 252px;
+  border-radius: 15px;
+  margin-top: 70px;
+  margin-bottom: 170px;
+  background-position-y: 50%;
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+
+.webDesignTitle h1 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.webDesignTitle p {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.webDesignProjects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}

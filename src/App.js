@@ -11,15 +11,13 @@ const App = () => {
   return (
     <div>
     <div className={styles.app}>
-      
-      <Header />
-
       <BrowserRouter>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/webdesign" component={WebDesign} />
+        <Route path="/" component={Header} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/webdesign" component={WebDesign} />
+          <Route path="/" component={CallToAction} />
         <Redirect from="*" to="/" />
       </BrowserRouter>
-      <CallToAction />
     </div>
       <Footer />
     </div>

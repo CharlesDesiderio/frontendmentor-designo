@@ -1,0 +1,30 @@
+.webDesignCard {
+  width: 350px;
+  height: 478px;
+  border-radius: 15px;
+}
+
+.webDesignCardInfo {
+  position: relative;
+  background-color: #FDF3F0;
+  padding: 30px;
+  border-radius: 0 0 15px 15px;
+  bottom: 8px;
+}
+
+.webDesignCardImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.webDesignCardInfo h3 {
+  color: var(--peach);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0;
+}
+
+.webDesignCardInfo p {
+  text-align: center;
+  margin-bottom: 0;
+}
