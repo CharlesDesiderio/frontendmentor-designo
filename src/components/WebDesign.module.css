@@ -1,3 +1,10 @@
+.leaf {
+  position: absolute;
+  top: 295px;
+  left: 0;
+  z-index: -2;
+}
+
 .webDesignTitle {
   text-align: center;
   background-color: var(--peach);
@@ -28,4 +35,59 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
+}
+.webDesignLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+.webDesignLink {
+  width: 540px;
+  height: 308px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--white);
+  border-radius: 15px;
+}
+
+.webDesignLink::before {
+  border-radius: 15px;
+  content: " ";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.50);
+}
+
+.webDesignLink h2 {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}
+
+.webDesignLink p {
+  margin-top: 25px;
+  position: relative;
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.webDesignLink img {
+  margin-left: 16px;
+}
+
+.webDesignLinkAnchor {
+  text-decoration: none;
 }
