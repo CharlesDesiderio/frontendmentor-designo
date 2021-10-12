@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 
 import ProjectCard from './ProjectCard'
 
+import leafBackground from '../assets/shared/desktop/bg-pattern-leaf.svg'
+
 import bgImage from '../assets/app-design/desktop/bg-pattern-intro-app.svg'
 
 import webBackground from '../assets/home/desktop/image-web-design-small.jpg'
@@ -44,6 +46,7 @@ const AppDesign = (props) => {
 
     return (
       <>
+          <img className={styles.leaf} src={leafBackground} alt="Leaf" />
       <div style={{ backgroundImage: `url(${bgImage})` }} className={styles.appDesignTitle}>
       <h1>App Design</h1>
       <p>Our mobile designs bring intuitive digital solutions to your customers right at their fingertips.</p>

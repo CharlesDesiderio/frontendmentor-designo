@@ -1,4 +1,11 @@
 
+.leaf {
+  position: absolute;
+  top: 295px;
+  left: 0;
+  z-index: -2;
+}
+
 .graphicDesignTitle {
   text-align: center;
   background-color: var(--peach);

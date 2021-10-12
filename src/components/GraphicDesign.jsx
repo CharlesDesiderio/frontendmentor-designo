@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 
 import ProjectCard from './ProjectCard'
 
+import leafBackground from '../assets/shared/desktop/bg-pattern-leaf.svg'
+
 import bgImage from '../assets/app-design/desktop/bg-pattern-intro-app.svg'
 
 import webBackground from '../assets/home/desktop/image-web-design-small.jpg'
@@ -35,6 +37,7 @@ const GraphicDesign = () => {
 
   return (
     <>
+        <img className={styles.leaf} src={leafBackground} alt="Leaf" />
       <div style={{ backgroundImage: `url(${bgImage})` }} className={styles.graphicDesignTitle}>
       <h1>Graphic Design</h1>
       <p>We deliver eye-catching branding materials that are tailored to meet your business objectives.
