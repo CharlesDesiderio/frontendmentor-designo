@@ -55,7 +55,7 @@ const AppDesign = (props) => {
       </div>
 
       <div className={styles.appDesignLinks}>
-        <Link className={styles.appDesignLinkAnchor} to="/appdesign">
+        <Link className={styles.appDesignLinkAnchor} to="/webdesign">
         <div style={{backgroundImage: `url(${webBackground})`}}  className={styles.appDesignLink}>
         <h2>Web Design</h2>
           <p>View Projects<img alt=">" src={rightArrow} /></p> 

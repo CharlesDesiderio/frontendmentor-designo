@@ -7,6 +7,7 @@ import CallToAction from './components/CallToAction'
 import Home from './components/Home'
 import WebDesign from './components/WebDesign'
 import AppDesign from './components/AppDesign'
+import GraphicDesign from './components/GraphicDesign'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route exact path="/" component={Home} />
           <Route exact path="/webdesign" component={WebDesign} />
           <Route exact path="/appdesign" component={AppDesign} />
+          <Route exact path="/graphicdesign" component={GraphicDesign} />
           <Route path="/" component={CallToAction} />
         <Redirect from="*" to="/" />
       </BrowserRouter>

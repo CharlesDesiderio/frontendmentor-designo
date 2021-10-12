@@ -55,10 +55,12 @@ const Home = () => {
         </Link>
       </div>
       <div style={{backgroundImage: `url(${graphicBackground})`}} className={styles.homeServicesGraphic}>
+        <Link className={styles.link} to="/graphicdesign">
         <div>
           <h1>Graphic Design</h1>
           <p>View Projects<img alt=">" src={rightArrow} /></p>  
         </div>
+        </Link>        
       </div>
     </div>
 
