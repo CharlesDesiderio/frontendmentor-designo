@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import CallToAction from './components/CallToAction'
 import Home from './components/Home'
 import WebDesign from './components/WebDesign'
+import AppDesign from './components/AppDesign'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/" component={Header} />
           <Route exact path="/" component={Home} />
           <Route exact path="/webdesign" component={WebDesign} />
+          <Route exact path="/appdesign" component={AppDesign} />
           <Route path="/" component={CallToAction} />
         <Redirect from="*" to="/" />
       </BrowserRouter>

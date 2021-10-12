@@ -1,10 +1,10 @@
-.webDesignCard {
+.ProjectCard {
   width: 350px;
   height: 478px;
   border-radius: 15px;
 }
 
-.webDesignCardInfo {
+.ProjectCardInfo {
   position: relative;
   background-color: #FDF3F0;
   padding: 30px;
@@ -12,19 +12,19 @@
   bottom: 8px;
 }
 
-.webDesignCardImage {
+.ProjectCardImage {
   max-width: 100%;
   max-height: 100%;
 }
 
-.webDesignCardInfo h3 {
+.ProjectCardInfo h3 {
   color: var(--peach);
   text-transform: uppercase;
   text-align: center;
   margin-top: 0;
 }
 
-.webDesignCardInfo p {
+.ProjectCardInfo p {
   text-align: center;
   margin-bottom: 0;
 }

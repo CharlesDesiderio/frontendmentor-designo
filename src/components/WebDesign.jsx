@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 import styles from './WebDesign.module.css'
 
-import WebDesignCard from "./WebDesignCard"
+import ProjectCard from "./ProjectCard"
 
 import leafBackground from '../assets/shared/desktop/bg-pattern-leaf.svg'
 
@@ -59,7 +59,7 @@ and bring memorable brand experiences.</p>
     </div>
     <div className={styles.webDesignProjects}>
       {projectsData.map((project) => {
-        return <WebDesignCard name={project.name} description={project.description} imageUrl={project.imageUrl} />
+        return <ProjectCard source='web-design' name={project.name} description={project.description} imageUrl={project.imageUrl} />
       })}
     </div>
 
