@@ -45,7 +45,7 @@ const AppDesign = (props) => {
   ]
 
     return (
-      <>
+      <div className={styles.appDesign}>
           <img className={styles.leaf} src={leafBackground} alt="Leaf" />
       <div style={{ backgroundImage: `url(${bgImage})` }} className={styles.appDesignTitle}>
       <h1>App Design</h1>
@@ -72,7 +72,7 @@ const AppDesign = (props) => {
         </Link>
 
       </div>
-      </>
+      </div>
     )
 }
 

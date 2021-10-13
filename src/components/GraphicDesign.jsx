@@ -36,7 +36,7 @@ const GraphicDesign = () => {
 
 
   return (
-    <>
+    <div className={styles.graphicDesign}>
         <img className={styles.leaf} src={leafBackground} alt="Leaf" />
       <div style={{ backgroundImage: `url(${bgImage})` }} className={styles.graphicDesignTitle}>
       <h1>Graphic Design</h1>
@@ -65,7 +65,7 @@ const GraphicDesign = () => {
 
 
       </div>
-    </>
+    </div>
   )
 }
 

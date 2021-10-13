@@ -6,6 +6,11 @@
   z-index: -2;
 }
 
+.graphicDesign {
+  width: 1110px;
+  margin: auto;
+}
+
 .graphicDesignTitle {
   text-align: center;
   background-color: var(--peach);

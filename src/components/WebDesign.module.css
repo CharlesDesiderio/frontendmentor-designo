@@ -5,6 +5,11 @@
   z-index: -2;
 }
 
+.webDesign {
+  width: 1110px;
+  margin: auto;
+}
+
 .webDesignTitle {
   text-align: center;
   background-color: var(--peach);

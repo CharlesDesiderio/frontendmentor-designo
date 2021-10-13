@@ -50,7 +50,7 @@ const WebDesign = () => {
   ]
 
   return (
-    <>
+    <div className={styles.webDesign}>
     <img className={styles.leaf} src={leafBackground} alt="Leaf" />
     <div style={{ backgroundImage: `url(${bgImage})` }} className={styles.webDesignTitle}>
       <h1>Web Design</h1>
@@ -79,7 +79,7 @@ and bring memorable brand experiences.</p>
 
       </div>
 
-    </>
+    </div>
   )
 }
 

@@ -5,6 +5,11 @@
   z-index: -2;
 }
 
+.appDesign {
+  width: 1110px;
+  margin: auto;
+}
+
 .appDesignTitle {
   text-align: center;
   background-color: var(--peach);

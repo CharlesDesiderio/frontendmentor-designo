@@ -8,6 +8,7 @@ import Home from './components/Home'
 import WebDesign from './components/WebDesign'
 import AppDesign from './components/AppDesign'
 import GraphicDesign from './components/GraphicDesign'
+import About from './components/About'
 
 const App = () => {
   return (
@@ -15,15 +16,16 @@ const App = () => {
     <div className={styles.app}>
       <BrowserRouter>
         <Route path="/" component={Header} />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/webdesign" component={WebDesign} />
-          <Route exact path="/appdesign" component={AppDesign} />
-          <Route exact path="/graphicdesign" component={GraphicDesign} />
-          <Route path="/" component={CallToAction} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/webdesign" component={WebDesign} />
+        <Route exact path="/appdesign" component={AppDesign} />
+        <Route exact path="/graphicdesign" component={GraphicDesign} />
+        <Route exact path="/about" component={About} />
+        <Route path="/" component={CallToAction} />
+        <Route path="/" component={Footer} />
         <Redirect from="*" to="/" />
       </BrowserRouter>
     </div>
-      <Footer />
     </div>
   )
 }
