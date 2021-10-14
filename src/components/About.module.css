@@ -33,7 +33,7 @@
   margin-top: 0;
 }
 
-.aboutTalent {
+.aboutTalent, .aboutRealDeal {
   width: 1110px;
   height: 640px;
   margin: auto;
@@ -44,7 +44,7 @@
   background-color: #FdF3F0;
 }
 
-.aboutTalent h2 {
+.aboutTalent h2, .aboutRealDeal h2 {
   color: var(--peach);
 }
 
@@ -52,22 +52,107 @@
   border-radius: 15px 0 0 15px;
 } 
 
-.aboutTalentInfo {
+.aboutTalentInfo, .aboutRealDealInfo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 95px;
   padding-right: 95px;
+}
+
+.aboutRealDeal {
+  margin-bottom: 90px;
+}
+
+.aboutTalentInfo {
   background-repeat: no-repeat;
   background-position-y: bottom;
   background-position-x: -150px;
 }
 
-.aboutTalentInfo h2 {
+.aboutRealDealInfo {
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: left;
+}
+
+.aboutTalentInfo h2, .aboutRealDealInfo h2 {
   margin-bottom: 0;
 }
 
-.aboutTalentInfo p {
+.aboutTalentInfo p, .aboutRealDealInfo p {
   margin-top: 24px;
   margin-bottom: 0;
+}
+
+.aboutRealDeal img {
+  border-radius: 0 15px 15px 0;
+}
+
+.aboutCities {
+  width: 1110px;
+  margin: auto;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 160px;
+}
+
+.aboutCity {
+  width: 350px;
+  height: 365px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutCity * {
+  margin: auto;
+}
+
+.aboutCity p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.aboutCity button {
+  padding: 15px;
+  border: none;
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--peach);
+  border-radius: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.aboutCities img {
+  width: 200px;
+  height: 200px;
+}
+
+.aboutCityImage {
+  display: flex;
+  justify-content: center;
+}
+
+.canadaBackground {
+  position: absolute;
+  z-index: -2;
+}
+
+.ausBackground {
+  position: absolute;
+  transform: rotate(-90deg);
+  z-index: -2;
+}
+
+.ukBackground {
+  position: absolute;
+  transform: rotate(180deg);
+  z-index: -2;
 }

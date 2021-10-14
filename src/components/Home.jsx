@@ -21,6 +21,7 @@ import qualityResourceful from '../assets/home/desktop/illustration-resourceful.
 import qualityFriendly from '../assets/home/desktop/illustration-friendly.svg'
 
 import qualityBackground from '../assets/home/desktop/bg-pattern-hero-home.svg'
+
 import { Link } from 'react-router-dom'
 
 const Home = () => {
