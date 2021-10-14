@@ -2,7 +2,6 @@ import styles from './CallToAction.module.css'
 import background from '../assets/shared/desktop/bg-pattern-call-to-action.svg'
 
 const CallToAction = () => {
-  console.log(background)
   return (
     <div className={styles.callToAction} style={{ backgroundImage: `url(${background})` }}>
       <div className={styles.blurb}>

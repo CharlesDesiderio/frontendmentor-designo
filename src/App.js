@@ -9,6 +9,7 @@ import WebDesign from './components/WebDesign'
 import AppDesign from './components/AppDesign'
 import GraphicDesign from './components/GraphicDesign'
 import About from './components/About'
+import Locations from './components/Locations'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route exact path="/webdesign" component={WebDesign} />
         <Route exact path="/appdesign" component={AppDesign} />
         <Route exact path="/graphicdesign" component={GraphicDesign} />
+        <Route exact path="/locations" component={Locations} />
         <Route exact path="/about" component={About} />
         <Route path="/" component={CallToAction} />
         <Route path="/" component={Footer} />

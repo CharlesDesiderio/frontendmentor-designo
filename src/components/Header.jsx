@@ -11,7 +11,7 @@ const Header = (props) => {
       <img alt="DESIGNO" src={props.color === 'dark' ? logoLight : logo} />
       <ul className={styles.links}>
         <li><Link to="/about">Our Company</Link></li>
-        <li>Locations</li>
+        <li><Link to="/locations">Locations</Link></li>
         <li>Contact</li>
       </ul>
     </div>
