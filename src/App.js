@@ -10,6 +10,7 @@ import AppDesign from './components/AppDesign'
 import GraphicDesign from './components/GraphicDesign'
 import About from './components/About'
 import Locations from './components/Locations'
+import Contact from './components/Contact'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route exact path="/graphicdesign" component={GraphicDesign} />
         <Route exact path="/locations" component={Locations} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
         <Route path="/" component={CallToAction} />
         <Route path="/" component={Footer} />
         <Redirect from="*" to="/" />

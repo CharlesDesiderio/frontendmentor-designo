@@ -2,7 +2,7 @@ import logo from '../assets/shared/desktop/logo-dark.png'
 import logoLight from '../assets/shared/desktop/logo-light.png'
 import styles from './Header.module.css'
 
-import { BrowserRouter, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Header = (props) => {
   return (
@@ -12,7 +12,7 @@ const Header = (props) => {
       <ul className={styles.links}>
         <li><Link to="/about">Our Company</Link></li>
         <li><Link to="/locations">Locations</Link></li>
-        <li>Contact</li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
     </div>
   )

@@ -7,10 +7,14 @@ import iconTW from '../assets/shared/desktop/icon-twitter.svg'
 import iconPI from '../assets/shared/desktop/icon-pinterest.svg'
 import iconIG from '../assets/shared/desktop/icon-instagram.svg'
 
+import { useLocation } from 'react-router'
 
 const Footer = () => {
+
+  const path = useLocation().pathname
+
   return (
-    <div className={styles.footer}>
+    <div style={{ paddingTop: path === '/contact' ? '70px' : '' }} className={styles.footer}>
       <div className={styles.footerContainer}>
         <Header color='dark' />
       </div>
