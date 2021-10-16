@@ -1,3 +1,71 @@
 .callToAction {
   display: none !important;
 }
+
+.contactCities {
+  width: 1110px;
+  margin: auto;
+  margin-top: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 160px;
+}
+
+.contactCity {
+  width: 350px;
+  height: 365px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactCity * {
+  margin: auto;
+}
+
+.contactCity p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.contactCity button {
+  padding: 15px;
+  border: none;
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--peach);
+  border-radius: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.contactCities img {
+  width: 200px;
+  height: 200px;
+}
+
+.contactCityImage {
+  display: flex;
+  justify-content: center;
+}
+
+.canadaBackground {
+  position: absolute;
+  z-index: -2;
+}
+
+.ausBackground {
+  position: absolute;
+  transform: rotate(-90deg);
+  z-index: -2;
+}
+
+.ukBackground {
+  position: absolute;
+  transform: rotate(180deg);
+  z-index: -2;
+}
