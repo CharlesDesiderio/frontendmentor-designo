@@ -1,5 +1,7 @@
 import styles from './About.module.css';
 
+import leafBackground from '../assets/shared/desktop/bg-pattern-leaf.svg'
+
 import aboutImage from '../assets/about/desktop/image-about-hero.jpg';
 
 import talentImage from '../assets/about/desktop/image-world-class-talent.jpg';
@@ -21,6 +23,8 @@ import aboutRealDealImage from '../assets/about/desktop/image-real-deal.jpg'
 const About = () => {
   return (
     <>
+    <img className={styles.leafTop} src={leafBackground} alt="" />
+    <img className={styles.leafBottom} src={leafBackground} alt="" />
       <div className={styles.aboutTitle}>
         <div
           style={{ backgroundImage: `url(${aboutBackground})` }}

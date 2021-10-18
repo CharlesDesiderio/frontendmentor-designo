@@ -11,7 +11,9 @@ import cityBackground from '../assets/home/desktop/bg-pattern-hero-home.svg'
 const Contact = () => {
   return (
     <>
-      <div className={styles.contactCard}></div>
+      <div className={styles.contactCard}>
+        
+      </div>
 
       <div className={styles.contactCities}>
         <div className={styles.contactCity}>

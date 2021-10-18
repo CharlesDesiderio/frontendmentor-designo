@@ -1,3 +1,18 @@
+.leafTop {
+  position: absolute;
+  left: 0;
+  top: 475px;
+  z-index: -2;
+}
+
+.leafBottom {
+  position: absolute;
+  right: -400px;
+  top: 1780px;
+  transform: rotate(180deg);
+  z-index: -2;
+}
+
 .aboutTitle {
   width: 1110px;
   height: 480px;
