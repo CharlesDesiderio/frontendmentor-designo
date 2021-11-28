@@ -48,8 +48,8 @@
   width: 50%;
   position: relative;
   display: flex;
-  justify-content: end;
-  align-items: end;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .contactSocial img {

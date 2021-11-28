@@ -8,11 +8,25 @@ import ukImage from '../assets/shared/desktop/illustration-united-kingdom.svg'
 
 import cityBackground from '../assets/home/desktop/bg-pattern-hero-home.svg'
 
+import contactBackground from '../assets/contact/desktop/bg-pattern-hero-desktop.svg'
+
 const Contact = () => {
   return (
     <>
-      <div className={styles.contactCard}>
-        
+      <div style={{ backgroundImage: `url(${contactBackground})` }} className={styles.contactCard}>
+        <div>
+          <h1>Contact Us</h1>
+          <p>Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.</p>
+        </div>
+        <div>
+          <form className={styles.contactForm}>
+            <input type="text" name="name" placeholder="Name" />  
+            <input type="text" name="email" placeholder="Email Address" />
+            <input type="text" name="phone" placeholder="Phone" />
+            <input type="textarea" name="message" placeholder="Your Message" />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
       </div>
 
       <div className={styles.contactCities}>
