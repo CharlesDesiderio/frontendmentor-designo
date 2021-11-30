@@ -8,7 +8,7 @@ const Header = (props) => {
   return (
     <div className={styles.head}>
       {/* This line bugs me, but it's because the logo is the light version FOR the dark theme. */}
-      <img alt="DESIGNO" src={props.color === 'dark' ? logoLight : logo} />
+      <Link className={styles.noHoverLine} to="/"><img alt="DESIGNO" src={props.color === 'dark' ? logoLight : logo} /></Link>
       <ul className={styles.links}>
         <li><Link to="/about">Our Company</Link></li>
         <li><Link to="/locations">Locations</Link></li>

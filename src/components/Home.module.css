@@ -124,6 +124,12 @@
   background-color: rgba(0, 0, 0, 0.50);
 }
 
+.homeServicesWeb:hover::before, .homeServicesApp:hover::before, .homeServicesGraphic:hover::before {
+  cursor: pointer;
+  background-color: var(--peach);
+  opacity: .80;
+}
+
 .homeQualities {
   width: 1110px;
   margin: auto;

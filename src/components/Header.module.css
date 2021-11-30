@@ -15,6 +15,12 @@
   border-bottom: 1px solid rgba(1, 1, 1, 0.5);
 }
 
+
+
+.noHoverLine:hover {
+  border-bottom: none !important;
+}
+
 .head ul {
   margin: 0;
 }
