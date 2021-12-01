@@ -43,3 +43,12 @@
   font-weight: 500;
   letter-spacing: 1px;
 }
+
+
+@media (max-width: 768px) {
+  .callToAction {
+    width: 689px;
+    flex-direction: column;
+
+  }
+}

@@ -2,6 +2,8 @@
   position: absolute;
   left: 0;
   top: 475px;
+  width: 1006px;
+  height: 594px;
 }
 
 .leafBottom {
@@ -9,6 +11,8 @@
   right: 0;
   top: 1880px;
   transform: rotate(180deg);
+  width: 1006px;
+  height: 594px;
 }
 
 .home {
@@ -182,4 +186,34 @@
 
 .qualityBackgroundResourceful {
   transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+
+  .home {
+    width: 689px;
+  }
+
+  .homeServices {
+    width: 689px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .homeServices div {
+    width: 100%;
+  }
+
+  .homeServicesWeb {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .homeQualities {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+
 }

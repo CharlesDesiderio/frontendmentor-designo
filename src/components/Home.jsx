@@ -27,8 +27,8 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <>
-    <img className={styles.leafTop} src={leafBackground} alt="" />
-    <img className={styles.leafBottom} src={leafBackground} alt="" />
+    <div className={styles.leafTop} style={{ backgroundImage: `url(${leafBackground})`}}>l</div>
+    <div className={styles.leafBottom} style={{ backgroundImage: `url(${leafBackground})`}}></div>
     <div style={{backgroundImage: `url(${homeBackground})`}} className={styles.home}>
       <div className={styles.homeInfo}>
         <h1>Award-winning custom designs and digital branding solutions</h1>
